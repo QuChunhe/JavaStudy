@@ -1,4 +1,12 @@
 ### IntelliJ IDEA ###
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
@@ -13,8 +21,6 @@ out/
 .sts4-cache
 .idea
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,3 +34,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
