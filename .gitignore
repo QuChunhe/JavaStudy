@@ -3,3 +3,21 @@
 
 # Ignore Gradle build output directory
 build
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+bin/
